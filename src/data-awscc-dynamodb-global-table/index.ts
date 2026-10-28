@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_global_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_global_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccDynamodbGlobalTableConfig extends cdktn.TerraformMetaA
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_global_table#id DataAwsccDynamodbGlobalTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_global_table#id DataAwsccDynamodbGlobalTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2542,6 +2542,11 @@ export class DataAwsccDynamodbGlobalTableReplicasOutputReference extends cdktn.C
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
 
+  // disassociation_protection_enabled - computed: true, optional: false, required: false
+  public get disassociationProtectionEnabled() {
+    return this.getBooleanAttribute('disassociation_protection_enabled');
+  }
+
   // global_secondary_indexes - computed: true, optional: false, required: false
   private _globalSecondaryIndexes = new DataAwsccDynamodbGlobalTableReplicasGlobalSecondaryIndexesList(this, "global_secondary_indexes", true);
   public get globalSecondaryIndexes() {
@@ -3407,7 +3412,7 @@ export class DataAwsccDynamodbGlobalTableWriteProvisionedThroughputSettingsOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_global_table awscc_dynamodb_global_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_global_table awscc_dynamodb_global_table}
 */
 export class DataAwsccDynamodbGlobalTable extends cdktn.TerraformDataSource {
 
@@ -3423,7 +3428,7 @@ export class DataAwsccDynamodbGlobalTable extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccDynamodbGlobalTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccDynamodbGlobalTable to import
-  * @param importFromId The id of the existing DataAwsccDynamodbGlobalTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_global_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccDynamodbGlobalTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_global_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccDynamodbGlobalTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3435,7 +3440,7 @@ export class DataAwsccDynamodbGlobalTable extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_global_table awscc_dynamodb_global_table} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_global_table awscc_dynamodb_global_table} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3446,7 +3451,7 @@ export class DataAwsccDynamodbGlobalTable extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_dynamodb_global_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -3570,6 +3575,11 @@ export class DataAwsccDynamodbGlobalTable extends cdktn.TerraformDataSource {
   // table_name - computed: true, optional: false, required: false
   public get tableName() {
     return this.getStringAttribute('table_name');
+  }
+
+  // table_type - computed: true, optional: false, required: false
+  public get tableType() {
+    return this.getStringAttribute('table_type');
   }
 
   // time_to_live_specification - computed: true, optional: false, required: false

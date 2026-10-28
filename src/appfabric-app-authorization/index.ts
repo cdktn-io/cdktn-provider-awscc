@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface AppfabricAppAuthorizationConfig extends cdktn.TerraformMetaArgu
   /**
   * The name of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#app AppfabricAppAuthorization#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#app AppfabricAppAuthorization#app}
   */
   readonly app: string;
   /**
   * The Amazon Resource Name (ARN) or Universal Unique Identifier (UUID) of the app bundle to use for the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#app_bundle_identifier AppfabricAppAuthorization#app_bundle_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#app_bundle_identifier AppfabricAppAuthorization#app_bundle_identifier}
   */
   readonly appBundleIdentifier: string;
   /**
   * The authorization type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#auth_type AppfabricAppAuthorization#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#auth_type AppfabricAppAuthorization#auth_type}
   */
   readonly authType: string;
   /**
   * Contains credentials for the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#credential AppfabricAppAuthorization#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#credential AppfabricAppAuthorization#credential}
   */
   readonly credential?: AppfabricAppAuthorizationCredential;
   /**
   * Tags to apply to the app authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#tags AppfabricAppAuthorization#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#tags AppfabricAppAuthorization#tags}
   */
   readonly tags?: AppfabricAppAuthorizationTags[] | cdktn.IResolvable;
   /**
   * Contains information about an application tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#tenant AppfabricAppAuthorization#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#tenant AppfabricAppAuthorization#tenant}
   */
   readonly tenant: AppfabricAppAuthorizationTenant;
 }
@@ -53,7 +53,7 @@ export interface AppfabricAppAuthorizationCredentialApiKeyCredential {
   /**
   * An API key for an application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#api_key AppfabricAppAuthorization#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#api_key AppfabricAppAuthorization#api_key}
   */
   readonly apiKey?: string;
 }
@@ -149,13 +149,13 @@ export interface AppfabricAppAuthorizationCredentialOauth2Credential {
   /**
   * The client ID of the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#client_id AppfabricAppAuthorization#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#client_id AppfabricAppAuthorization#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret of the client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#client_secret AppfabricAppAuthorization#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#client_secret AppfabricAppAuthorization#client_secret}
   */
   readonly clientSecret?: string;
 }
@@ -280,13 +280,13 @@ export interface AppfabricAppAuthorizationCredential {
   /**
   * Contains API key credential information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#api_key_credential AppfabricAppAuthorization#api_key_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#api_key_credential AppfabricAppAuthorization#api_key_credential}
   */
   readonly apiKeyCredential?: AppfabricAppAuthorizationCredentialApiKeyCredential;
   /**
   * Contains OAuth2 client credential information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#oauth_2_credential AppfabricAppAuthorization#oauth_2_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#oauth_2_credential AppfabricAppAuthorization#oauth_2_credential}
   */
   readonly oauth2Credential?: AppfabricAppAuthorizationCredentialOauth2Credential;
 }
@@ -411,13 +411,13 @@ export interface AppfabricAppAuthorizationTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#key AppfabricAppAuthorization#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#key AppfabricAppAuthorization#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#value AppfabricAppAuthorization#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#value AppfabricAppAuthorization#value}
   */
   readonly value?: string;
 }
@@ -564,13 +564,13 @@ export interface AppfabricAppAuthorizationTenant {
   /**
   * The display name of the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#tenant_display_name AppfabricAppAuthorization#tenant_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#tenant_display_name AppfabricAppAuthorization#tenant_display_name}
   */
   readonly tenantDisplayName: string;
   /**
   * The ID of the application tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#tenant_identifier AppfabricAppAuthorization#tenant_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#tenant_identifier AppfabricAppAuthorization#tenant_identifier}
   */
   readonly tenantIdentifier: string;
 }
@@ -687,7 +687,7 @@ export class AppfabricAppAuthorizationTenantOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization awscc_appfabric_app_authorization}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization awscc_appfabric_app_authorization}
 */
 export class AppfabricAppAuthorization extends cdktn.TerraformResource {
 
@@ -703,7 +703,7 @@ export class AppfabricAppAuthorization extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppfabricAppAuthorization resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppfabricAppAuthorization to import
-  * @param importFromId The id of the existing AppfabricAppAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppfabricAppAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppfabricAppAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -715,7 +715,7 @@ export class AppfabricAppAuthorization extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_app_authorization awscc_appfabric_app_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_app_authorization awscc_appfabric_app_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -726,7 +726,7 @@ export class AppfabricAppAuthorization extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appfabric_app_authorization',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

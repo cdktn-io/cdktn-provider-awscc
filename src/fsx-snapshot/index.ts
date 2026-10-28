@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_snapshot
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface FsxSnapshotConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_snapshot#name FsxSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_snapshot#name FsxSnapshot#name}
   */
   readonly name: string;
   /**
   * A list of Tag values, with a maximum of 50 elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_snapshot#tags FsxSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_snapshot#tags FsxSnapshot#tags}
   */
   readonly tags?: FsxSnapshotTags[] | cdktn.IResolvable;
   /**
   * The ID of the volume that the snapshot is of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_snapshot#volume_id FsxSnapshot#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_snapshot#volume_id FsxSnapshot#volume_id}
   */
   readonly volumeId: string;
 }
@@ -35,13 +35,13 @@ export interface FsxSnapshotTags {
   /**
   * A value that specifies the TagKey, the name of the tag. Tag keys must be unique for the resource to which they are attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_snapshot#key FsxSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_snapshot#key FsxSnapshot#key}
   */
   readonly key?: string;
   /**
   * A value that specifies the TagValue, the value assigned to the corresponding tag key. Tag values can be null and don't have to be unique in a tag set. For example, you can have a key-value pair in a tag set of finances : April and also of payroll : April.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_snapshot#value FsxSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_snapshot#value FsxSnapshot#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class FsxSnapshotTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_snapshot awscc_fsx_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_snapshot awscc_fsx_snapshot}
 */
 export class FsxSnapshot extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class FsxSnapshot extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FsxSnapshot resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FsxSnapshot to import
-  * @param importFromId The id of the existing FsxSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FsxSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FsxSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class FsxSnapshot extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_snapshot awscc_fsx_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_snapshot awscc_fsx_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class FsxSnapshot extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_fsx_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

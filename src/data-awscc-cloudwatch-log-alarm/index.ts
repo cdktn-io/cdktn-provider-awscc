@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_log_alarm
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_log_alarm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,131 @@ export interface DataAwsccCloudwatchLogAlarmConfig extends cdktn.TerraformMetaAr
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_log_alarm#id DataAwsccCloudwatchLogAlarm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_log_alarm#id DataAwsccCloudwatchLogAlarm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccCloudwatchLogAlarmActionConfigurationAlarmTagsPropagation {
+}
+
+export function dataAwsccCloudwatchLogAlarmActionConfigurationAlarmTagsPropagationToTerraform(struct?: DataAwsccCloudwatchLogAlarmActionConfigurationAlarmTagsPropagation): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccCloudwatchLogAlarmActionConfigurationAlarmTagsPropagationToHclTerraform(struct?: DataAwsccCloudwatchLogAlarmActionConfigurationAlarmTagsPropagation): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccCloudwatchLogAlarmActionConfigurationAlarmTagsPropagationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccCloudwatchLogAlarmActionConfigurationAlarmTagsPropagation | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccCloudwatchLogAlarmActionConfigurationAlarmTagsPropagation | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // enabled - computed: true, optional: false, required: false
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+
+  // excluded_tag_keys - computed: true, optional: false, required: false
+  public get excludedTagKeys() {
+    return cdktn.Fn.tolist(this.getListAttribute('excluded_tag_keys'));
+  }
+
+  // included_tag_keys - computed: true, optional: false, required: false
+  public get includedTagKeys() {
+    return cdktn.Fn.tolist(this.getListAttribute('included_tag_keys'));
+  }
+}
+export interface DataAwsccCloudwatchLogAlarmActionConfiguration {
+}
+
+export function dataAwsccCloudwatchLogAlarmActionConfigurationToTerraform(struct?: DataAwsccCloudwatchLogAlarmActionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccCloudwatchLogAlarmActionConfigurationToHclTerraform(struct?: DataAwsccCloudwatchLogAlarmActionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccCloudwatchLogAlarmActionConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccCloudwatchLogAlarmActionConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccCloudwatchLogAlarmActionConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // alarm_tags_propagation - computed: true, optional: false, required: false
+  private _alarmTagsPropagation = new DataAwsccCloudwatchLogAlarmActionConfigurationAlarmTagsPropagationOutputReference(this, "alarm_tags_propagation");
+  public get alarmTagsPropagation() {
+    return this._alarmTagsPropagation;
+  }
 }
 export interface DataAwsccCloudwatchLogAlarmScheduledQueryConfigurationScheduleConfiguration {
 }
@@ -388,7 +507,7 @@ export class DataAwsccCloudwatchLogAlarmWarmUpConfigurationOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm}
 */
 export class DataAwsccCloudwatchLogAlarm extends cdktn.TerraformDataSource {
 
@@ -404,7 +523,7 @@ export class DataAwsccCloudwatchLogAlarm extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccCloudwatchLogAlarm resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCloudwatchLogAlarm to import
-  * @param importFromId The id of the existing DataAwsccCloudwatchLogAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_log_alarm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCloudwatchLogAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_log_alarm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCloudwatchLogAlarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -416,7 +535,7 @@ export class DataAwsccCloudwatchLogAlarm extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -427,7 +546,7 @@ export class DataAwsccCloudwatchLogAlarm extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_cloudwatch_log_alarm',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -444,6 +563,12 @@ export class DataAwsccCloudwatchLogAlarm extends cdktn.TerraformDataSource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // action_configuration - computed: true, optional: false, required: false
+  private _actionConfiguration = new DataAwsccCloudwatchLogAlarmActionConfigurationOutputReference(this, "action_configuration");
+  public get actionConfiguration() {
+    return this._actionConfiguration;
+  }
 
   // action_log_line_count - computed: true, optional: false, required: false
   public get actionLogLineCount() {

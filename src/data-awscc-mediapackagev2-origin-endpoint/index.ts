@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_origin_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccMediapackagev2OriginEndpointConfig extends cdktn.Terra
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint#id DataAwsccMediapackagev2OriginEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_origin_endpoint#id DataAwsccMediapackagev2OriginEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -371,6 +371,65 @@ export class DataAwsccMediapackagev2OriginEndpointDashManifestsDvbSettingsOutput
     return this._fontDownload;
   }
 }
+export interface DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiview {
+}
+
+export function dataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiviewToTerraform(struct?: DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiview): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiviewToHclTerraform(struct?: DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiview): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiviewOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiview | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiview | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // layout - computed: true, optional: false, required: false
+  public get layout() {
+    return this.getStringAttribute('layout');
+  }
+
+  // sources - computed: true, optional: false, required: false
+  public get sources() {
+    return this.getListAttribute('sources');
+  }
+}
 export interface DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfiguration {
 }
 
@@ -438,6 +497,12 @@ export class DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurati
   // manifest_filter - computed: true, optional: false, required: false
   public get manifestFilter() {
     return this.getStringAttribute('manifest_filter');
+  }
+
+  // multiview - computed: true, optional: false, required: false
+  private _multiview = new DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiviewOutputReference(this, "multiview");
+  public get multiview() {
+    return this._multiview;
   }
 
   // start - computed: true, optional: false, required: false
@@ -983,6 +1048,65 @@ export class DataAwsccMediapackagev2OriginEndpointForceEndpointErrorConfiguratio
     return this.getListAttribute('endpoint_error_conditions');
   }
 }
+export interface DataAwsccMediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiview {
+}
+
+export function dataAwsccMediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiviewToTerraform(struct?: DataAwsccMediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiview): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiviewToHclTerraform(struct?: DataAwsccMediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiview): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiviewOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiview | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiview | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // layout - computed: true, optional: false, required: false
+  public get layout() {
+    return this.getStringAttribute('layout');
+  }
+
+  // sources - computed: true, optional: false, required: false
+  public get sources() {
+    return this.getListAttribute('sources');
+  }
+}
 export interface DataAwsccMediapackagev2OriginEndpointHlsManifestsFilterConfiguration {
 }
 
@@ -1050,6 +1174,12 @@ export class DataAwsccMediapackagev2OriginEndpointHlsManifestsFilterConfiguratio
   // manifest_filter - computed: true, optional: false, required: false
   public get manifestFilter() {
     return this.getStringAttribute('manifest_filter');
+  }
+
+  // multiview - computed: true, optional: false, required: false
+  private _multiview = new DataAwsccMediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiviewOutputReference(this, "multiview");
+  public get multiview() {
+    return this._multiview;
   }
 
   // start - computed: true, optional: false, required: false
@@ -2374,7 +2504,7 @@ export class DataAwsccMediapackagev2OriginEndpointTagsList extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint}
 */
 export class DataAwsccMediapackagev2OriginEndpoint extends cdktn.TerraformDataSource {
 
@@ -2390,7 +2520,7 @@ export class DataAwsccMediapackagev2OriginEndpoint extends cdktn.TerraformDataSo
   * Generates CDKTN code for importing a DataAwsccMediapackagev2OriginEndpoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMediapackagev2OriginEndpoint to import
-  * @param importFromId The id of the existing DataAwsccMediapackagev2OriginEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMediapackagev2OriginEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_origin_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMediapackagev2OriginEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2402,7 +2532,7 @@ export class DataAwsccMediapackagev2OriginEndpoint extends cdktn.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2413,7 +2543,7 @@ export class DataAwsccMediapackagev2OriginEndpoint extends cdktn.TerraformDataSo
       terraformResourceType: 'awscc_mediapackagev2_origin_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

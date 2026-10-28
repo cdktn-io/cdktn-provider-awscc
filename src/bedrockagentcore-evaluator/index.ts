@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface BedrockagentcoreEvaluatorConfig extends cdktn.TerraformMetaArgu
   /**
   * The description of the evaluator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#description BedrockagentcoreEvaluator#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#description BedrockagentcoreEvaluator#description}
   */
   readonly description?: string;
   /**
   * The configuration for the evaluator, including LLM-as-a-Judge, code-based, or derived settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#evaluator_config BedrockagentcoreEvaluator#evaluator_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#evaluator_config BedrockagentcoreEvaluator#evaluator_config}
   */
   readonly evaluatorConfig: BedrockagentcoreEvaluatorEvaluatorConfig;
   /**
   * The name of the evaluator. Must be unique within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#evaluator_name BedrockagentcoreEvaluator#evaluator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#evaluator_name BedrockagentcoreEvaluator#evaluator_name}
   */
   readonly evaluatorName: string;
   /**
   * The ARN of the KMS key used to encrypt evaluator data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#kms_key_arn BedrockagentcoreEvaluator#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#kms_key_arn BedrockagentcoreEvaluator#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * The evaluation level that determines the scope of evaluation. Required for all evaluator configuration types. For Derived evaluators it must match the level of the base evaluator identified by BaseEvaluatorId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#level BedrockagentcoreEvaluator#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#level BedrockagentcoreEvaluator#level}
   */
   readonly level: string;
   /**
   * A list of tags to assign to the evaluator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#tags BedrockagentcoreEvaluator#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#tags BedrockagentcoreEvaluator#tags}
   */
   readonly tags?: BedrockagentcoreEvaluatorTags[] | cdktn.IResolvable;
 }
@@ -53,13 +53,13 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigCodeBasedLambdaConfig {
   /**
   * The ARN of the Lambda function used for evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#lambda_arn BedrockagentcoreEvaluator#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#lambda_arn BedrockagentcoreEvaluator#lambda_arn}
   */
   readonly lambdaArn?: string;
   /**
   * The timeout in seconds for the Lambda function invocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#lambda_timeout_in_seconds BedrockagentcoreEvaluator#lambda_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#lambda_timeout_in_seconds BedrockagentcoreEvaluator#lambda_timeout_in_seconds}
   */
   readonly lambdaTimeoutInSeconds?: number;
 }
@@ -184,7 +184,7 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigCodeBased {
   /**
   * The Lambda function configuration for code-based evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#lambda_config BedrockagentcoreEvaluator#lambda_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#lambda_config BedrockagentcoreEvaluator#lambda_config}
   */
   readonly lambdaConfig?: BedrockagentcoreEvaluatorEvaluatorConfigCodeBasedLambdaConfig;
 }
@@ -280,25 +280,25 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedro
   /**
   * The maximum number of tokens to generate in the model response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#max_tokens BedrockagentcoreEvaluator#max_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#max_tokens BedrockagentcoreEvaluator#max_tokens}
   */
   readonly maxTokens?: number;
   /**
   * The sequences that make the model stop generating further tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#stop_sequences BedrockagentcoreEvaluator#stop_sequences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#stop_sequences BedrockagentcoreEvaluator#stop_sequences}
   */
   readonly stopSequences?: string[];
   /**
   * The temperature value that controls randomness in the model's responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#temperature BedrockagentcoreEvaluator#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#temperature BedrockagentcoreEvaluator#temperature}
   */
   readonly temperature?: number;
   /**
   * The top-p sampling parameter that controls the diversity of the model's responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#top_p BedrockagentcoreEvaluator#top_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#top_p BedrockagentcoreEvaluator#top_p}
   */
   readonly topP?: number;
 }
@@ -481,19 +481,19 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedro
   /**
   * Additional model-specific request fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#additional_model_request_fields BedrockagentcoreEvaluator#additional_model_request_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#additional_model_request_fields BedrockagentcoreEvaluator#additional_model_request_fields}
   */
   readonly additionalModelRequestFields?: string;
   /**
   * The inference configuration parameters that control model behavior during evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#inference_config BedrockagentcoreEvaluator#inference_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#inference_config BedrockagentcoreEvaluator#inference_config}
   */
   readonly inferenceConfig?: BedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfig;
   /**
   * The identifier of the Amazon Bedrock model to use for evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#model_id BedrockagentcoreEvaluator#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#model_id BedrockagentcoreEvaluator#model_id}
   */
   readonly modelId?: string;
 }
@@ -647,7 +647,7 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigRespo
   /**
   * The level of reasoning effort the model applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#effort BedrockagentcoreEvaluator#effort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#effort BedrockagentcoreEvaluator#effort}
   */
   readonly effort?: string;
 }
@@ -743,31 +743,31 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigRespo
   /**
   * The maximum number of output tokens to generate, including visible output and reasoning tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#max_output_tokens BedrockagentcoreEvaluator#max_output_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#max_output_tokens BedrockagentcoreEvaluator#max_output_tokens}
   */
   readonly maxOutputTokens?: number;
   /**
   * The identifier of the model to use for evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#model_id BedrockagentcoreEvaluator#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#model_id BedrockagentcoreEvaluator#model_id}
   */
   readonly modelId?: string;
   /**
   * The reasoning configuration for reasoning models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#reasoning BedrockagentcoreEvaluator#reasoning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#reasoning BedrockagentcoreEvaluator#reasoning}
   */
   readonly reasoning?: BedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigReasoning;
   /**
   * The sampling temperature between 0 and 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#temperature BedrockagentcoreEvaluator#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#temperature BedrockagentcoreEvaluator#temperature}
   */
   readonly temperature?: number;
   /**
   * The nucleus sampling probability mass between 0 and 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#top_p BedrockagentcoreEvaluator#top_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#top_p BedrockagentcoreEvaluator#top_p}
   */
   readonly topP?: number;
 }
@@ -979,13 +979,13 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfig {
   /**
   * The configuration for using Amazon Bedrock models in evaluator assessments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#bedrock_evaluator_model_config BedrockagentcoreEvaluator#bedrock_evaluator_model_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#bedrock_evaluator_model_config BedrockagentcoreEvaluator#bedrock_evaluator_model_config}
   */
   readonly bedrockEvaluatorModelConfig?: BedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfig;
   /**
   * The configuration for using OpenResponses-compatible models in evaluator assessments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#responses_evaluator_model_config BedrockagentcoreEvaluator#responses_evaluator_model_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#responses_evaluator_model_config BedrockagentcoreEvaluator#responses_evaluator_model_config}
   */
   readonly responsesEvaluatorModelConfig?: BedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfig;
 }
@@ -1110,13 +1110,13 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigDerived {
   /**
   * The identifier of the base evaluator whose logic to run (a Builtin.* or ThirdParty.* evaluator).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#base_evaluator_id BedrockagentcoreEvaluator#base_evaluator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#base_evaluator_id BedrockagentcoreEvaluator#base_evaluator_id}
   */
   readonly baseEvaluatorId?: string;
   /**
   * The model configuration that specifies which foundation model to use for evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#model_config BedrockagentcoreEvaluator#model_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#model_config BedrockagentcoreEvaluator#model_config}
   */
   readonly modelConfig?: BedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfig;
 }
@@ -1241,25 +1241,25 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigB
   /**
   * The maximum number of tokens to generate in the model response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#max_tokens BedrockagentcoreEvaluator#max_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#max_tokens BedrockagentcoreEvaluator#max_tokens}
   */
   readonly maxTokens?: number;
   /**
   * The sequences that make the model stop generating further tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#stop_sequences BedrockagentcoreEvaluator#stop_sequences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#stop_sequences BedrockagentcoreEvaluator#stop_sequences}
   */
   readonly stopSequences?: string[];
   /**
   * The temperature value that controls randomness in the model's responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#temperature BedrockagentcoreEvaluator#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#temperature BedrockagentcoreEvaluator#temperature}
   */
   readonly temperature?: number;
   /**
   * The top-p sampling parameter that controls the diversity of the model's responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#top_p BedrockagentcoreEvaluator#top_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#top_p BedrockagentcoreEvaluator#top_p}
   */
   readonly topP?: number;
 }
@@ -1442,19 +1442,19 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigB
   /**
   * Additional model-specific request fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#additional_model_request_fields BedrockagentcoreEvaluator#additional_model_request_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#additional_model_request_fields BedrockagentcoreEvaluator#additional_model_request_fields}
   */
   readonly additionalModelRequestFields?: string;
   /**
   * The inference configuration parameters that control model behavior during evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#inference_config BedrockagentcoreEvaluator#inference_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#inference_config BedrockagentcoreEvaluator#inference_config}
   */
   readonly inferenceConfig?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvaluatorModelConfigInferenceConfig;
   /**
   * The identifier of the Amazon Bedrock model to use for evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#model_id BedrockagentcoreEvaluator#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#model_id BedrockagentcoreEvaluator#model_id}
   */
   readonly modelId?: string;
 }
@@ -1608,7 +1608,7 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigR
   /**
   * The level of reasoning effort the model applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#effort BedrockagentcoreEvaluator#effort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#effort BedrockagentcoreEvaluator#effort}
   */
   readonly effort?: string;
 }
@@ -1704,31 +1704,31 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigR
   /**
   * The maximum number of output tokens to generate, including visible output and reasoning tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#max_output_tokens BedrockagentcoreEvaluator#max_output_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#max_output_tokens BedrockagentcoreEvaluator#max_output_tokens}
   */
   readonly maxOutputTokens?: number;
   /**
   * The identifier of the model to use for evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#model_id BedrockagentcoreEvaluator#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#model_id BedrockagentcoreEvaluator#model_id}
   */
   readonly modelId?: string;
   /**
   * The reasoning configuration for reasoning models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#reasoning BedrockagentcoreEvaluator#reasoning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#reasoning BedrockagentcoreEvaluator#reasoning}
   */
   readonly reasoning?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigResponsesEvaluatorModelConfigReasoning;
   /**
   * The sampling temperature between 0 and 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#temperature BedrockagentcoreEvaluator#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#temperature BedrockagentcoreEvaluator#temperature}
   */
   readonly temperature?: number;
   /**
   * The nucleus sampling probability mass between 0 and 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#top_p BedrockagentcoreEvaluator#top_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#top_p BedrockagentcoreEvaluator#top_p}
   */
   readonly topP?: number;
 }
@@ -1940,13 +1940,13 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfig 
   /**
   * The configuration for using Amazon Bedrock models in evaluator assessments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#bedrock_evaluator_model_config BedrockagentcoreEvaluator#bedrock_evaluator_model_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#bedrock_evaluator_model_config BedrockagentcoreEvaluator#bedrock_evaluator_model_config}
   */
   readonly bedrockEvaluatorModelConfig?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvaluatorModelConfig;
   /**
   * The configuration for using OpenResponses-compatible models in evaluator assessments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#responses_evaluator_model_config BedrockagentcoreEvaluator#responses_evaluator_model_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#responses_evaluator_model_config BedrockagentcoreEvaluator#responses_evaluator_model_config}
   */
   readonly responsesEvaluatorModelConfig?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigResponsesEvaluatorModelConfig;
 }
@@ -2071,13 +2071,13 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleC
   /**
   * The description that explains what this categorical rating represents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#definition BedrockagentcoreEvaluator#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#definition BedrockagentcoreEvaluator#definition}
   */
   readonly definition?: string;
   /**
   * The label of this categorical rating option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#label BedrockagentcoreEvaluator#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#label BedrockagentcoreEvaluator#label}
   */
   readonly label?: string;
 }
@@ -2220,23 +2220,683 @@ export class BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleCateg
     return new BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleCategoricalOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleNumerical {
+export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategorical {
+  /**
+  * The description that explains what this categorical rating represents.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#definition BedrockagentcoreEvaluator#definition}
+  */
+  readonly definition?: string;
+  /**
+  * The label of this categorical rating option.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#label BedrockagentcoreEvaluator#label}
+  */
+  readonly label?: string;
+}
+
+export function bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategoricalToTerraform(struct?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategorical | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    definition: cdktn.stringToTerraform(struct!.definition),
+    label: cdktn.stringToTerraform(struct!.label),
+  }
+}
+
+
+export function bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategoricalToHclTerraform(struct?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategorical | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    definition: {
+      value: cdktn.stringToHclTerraform(struct!.definition),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    label: {
+      value: cdktn.stringToHclTerraform(struct!.label),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategoricalOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategorical | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._definition !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.definition = this._definition;
+    }
+    if (this._label !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.label = this._label;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategorical | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._definition = undefined;
+      this._label = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._definition = value.definition;
+      this._label = value.label;
+    }
+  }
+
+  // definition - computed: true, optional: true, required: false
+  private _definition?: string; 
+  public get definition() {
+    return this.getStringAttribute('definition');
+  }
+  public set definition(value: string) {
+    this._definition = value;
+  }
+  public resetDefinition() {
+    this._definition = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get definitionInput() {
+    return this._definition;
+  }
+
+  // label - computed: true, optional: true, required: false
+  private _label?: string; 
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+  public set label(value: string) {
+    this._label = value;
+  }
+  public resetLabel() {
+    this._label = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelInput() {
+    return this._label;
+  }
+}
+
+export class BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategoricalList extends cdktn.ComplexList {
+  public internalValue? : BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategorical[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategoricalOutputReference {
+    return new BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategoricalOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumerical {
   /**
   * The description that explains what this numerical rating represents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#definition BedrockagentcoreEvaluator#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#definition BedrockagentcoreEvaluator#definition}
   */
   readonly definition?: string;
   /**
   * The label that describes this numerical rating option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#label BedrockagentcoreEvaluator#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#label BedrockagentcoreEvaluator#label}
   */
   readonly label?: string;
   /**
   * The numerical value for this rating scale option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#value BedrockagentcoreEvaluator#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#value BedrockagentcoreEvaluator#value}
+  */
+  readonly value?: number;
+}
+
+export function bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumericalToTerraform(struct?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumerical | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    definition: cdktn.stringToTerraform(struct!.definition),
+    label: cdktn.stringToTerraform(struct!.label),
+    value: cdktn.numberToTerraform(struct!.value),
+  }
+}
+
+
+export function bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumericalToHclTerraform(struct?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumerical | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    definition: {
+      value: cdktn.stringToHclTerraform(struct!.definition),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    label: {
+      value: cdktn.stringToHclTerraform(struct!.label),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.numberToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumericalOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumerical | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._definition !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.definition = this._definition;
+    }
+    if (this._label !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.label = this._label;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumerical | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._definition = undefined;
+      this._label = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._definition = value.definition;
+      this._label = value.label;
+      this._value = value.value;
+    }
+  }
+
+  // definition - computed: true, optional: true, required: false
+  private _definition?: string; 
+  public get definition() {
+    return this.getStringAttribute('definition');
+  }
+  public set definition(value: string) {
+    this._definition = value;
+  }
+  public resetDefinition() {
+    this._definition = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get definitionInput() {
+    return this._definition;
+  }
+
+  // label - computed: true, optional: true, required: false
+  private _label?: string; 
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+  public set label(value: string) {
+    this._label = value;
+  }
+  public resetLabel() {
+    this._label = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelInput() {
+    return this._label;
+  }
+
+  // value - computed: true, optional: true, required: false
+  private _value?: number; 
+  public get value() {
+    return this.getNumberAttribute('value');
+  }
+  public set value(value: number) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumericalList extends cdktn.ComplexList {
+  public internalValue? : BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumerical[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumericalOutputReference {
+    return new BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumericalOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScale {
+  /**
+  * The categorical rating scale for this dimension.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#categorical BedrockagentcoreEvaluator#categorical}
+  */
+  readonly categorical?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategorical[] | cdktn.IResolvable;
+  /**
+  * The numerical rating scale for this dimension.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#numerical BedrockagentcoreEvaluator#numerical}
+  */
+  readonly numerical?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumerical[] | cdktn.IResolvable;
+}
+
+export function bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleToTerraform(struct?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScale | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    categorical: cdktn.listMapper(bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategoricalToTerraform, false)(struct!.categorical),
+    numerical: cdktn.listMapper(bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumericalToTerraform, false)(struct!.numerical),
+  }
+}
+
+
+export function bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleToHclTerraform(struct?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScale | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    categorical: {
+      value: cdktn.listMapperHcl(bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategoricalToHclTerraform, false)(struct!.categorical),
+      isBlock: true,
+      type: "list",
+      storageClassType: "BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategoricalList",
+    },
+    numerical: {
+      value: cdktn.listMapperHcl(bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumericalToHclTerraform, false)(struct!.numerical),
+      isBlock: true,
+      type: "list",
+      storageClassType: "BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumericalList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScale | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._categorical?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.categorical = this._categorical?.internalValue;
+    }
+    if (this._numerical?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numerical = this._numerical?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScale | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._categorical.internalValue = undefined;
+      this._numerical.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._categorical.internalValue = value.categorical;
+      this._numerical.internalValue = value.numerical;
+    }
+  }
+
+  // categorical - computed: true, optional: true, required: false
+  private _categorical = new BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategoricalList(this, "categorical", false);
+  public get categorical() {
+    return this._categorical;
+  }
+  public putCategorical(value: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleCategorical[] | cdktn.IResolvable) {
+    this._categorical.internalValue = value;
+  }
+  public resetCategorical() {
+    this._categorical.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get categoricalInput() {
+    return this._categorical.internalValue;
+  }
+
+  // numerical - computed: true, optional: true, required: false
+  private _numerical = new BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumericalList(this, "numerical", false);
+  public get numerical() {
+    return this._numerical;
+  }
+  public putNumerical(value: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleNumerical[] | cdktn.IResolvable) {
+    this._numerical.internalValue = value;
+  }
+  public resetNumerical() {
+    this._numerical.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numericalInput() {
+    return this._numerical.internalValue;
+  }
+}
+export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensional {
+  /**
+  * The instruction to the evaluator model describing what to judge for this dimension.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#dimension_instruction BedrockagentcoreEvaluator#dimension_instruction}
+  */
+  readonly dimensionInstruction?: string;
+  /**
+  * The name of the dimension. Must be unique within the evaluator.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#dimension_name BedrockagentcoreEvaluator#dimension_name}
+  */
+  readonly dimensionName?: string;
+  /**
+  * The rating scale for one dimension of an LLM-as-a-Judge evaluator.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#dimension_rating_scale BedrockagentcoreEvaluator#dimension_rating_scale}
+  */
+  readonly dimensionRatingScale?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScale;
+}
+
+export function bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalToTerraform(struct?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensional | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    dimension_instruction: cdktn.stringToTerraform(struct!.dimensionInstruction),
+    dimension_name: cdktn.stringToTerraform(struct!.dimensionName),
+    dimension_rating_scale: bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleToTerraform(struct!.dimensionRatingScale),
+  }
+}
+
+
+export function bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalToHclTerraform(struct?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensional | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    dimension_instruction: {
+      value: cdktn.stringToHclTerraform(struct!.dimensionInstruction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dimension_name: {
+      value: cdktn.stringToHclTerraform(struct!.dimensionName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dimension_rating_scale: {
+      value: bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleToHclTerraform(struct!.dimensionRatingScale),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScale",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensional | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dimensionInstruction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensionInstruction = this._dimensionInstruction;
+    }
+    if (this._dimensionName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensionName = this._dimensionName;
+    }
+    if (this._dimensionRatingScale?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensionRatingScale = this._dimensionRatingScale?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensional | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dimensionInstruction = undefined;
+      this._dimensionName = undefined;
+      this._dimensionRatingScale.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dimensionInstruction = value.dimensionInstruction;
+      this._dimensionName = value.dimensionName;
+      this._dimensionRatingScale.internalValue = value.dimensionRatingScale;
+    }
+  }
+
+  // dimension_instruction - computed: true, optional: true, required: false
+  private _dimensionInstruction?: string; 
+  public get dimensionInstruction() {
+    return this.getStringAttribute('dimension_instruction');
+  }
+  public set dimensionInstruction(value: string) {
+    this._dimensionInstruction = value;
+  }
+  public resetDimensionInstruction() {
+    this._dimensionInstruction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionInstructionInput() {
+    return this._dimensionInstruction;
+  }
+
+  // dimension_name - computed: true, optional: true, required: false
+  private _dimensionName?: string; 
+  public get dimensionName() {
+    return this.getStringAttribute('dimension_name');
+  }
+  public set dimensionName(value: string) {
+    this._dimensionName = value;
+  }
+  public resetDimensionName() {
+    this._dimensionName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionNameInput() {
+    return this._dimensionName;
+  }
+
+  // dimension_rating_scale - computed: true, optional: true, required: false
+  private _dimensionRatingScale = new BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScaleOutputReference(this, "dimension_rating_scale");
+  public get dimensionRatingScale() {
+    return this._dimensionRatingScale;
+  }
+  public putDimensionRatingScale(value: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScale) {
+    this._dimensionRatingScale.internalValue = value;
+  }
+  public resetDimensionRatingScale() {
+    this._dimensionRatingScale.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionRatingScaleInput() {
+    return this._dimensionRatingScale.internalValue;
+  }
+}
+
+export class BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalList extends cdktn.ComplexList {
+  public internalValue? : BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensional[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalOutputReference {
+    return new BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleNumerical {
+  /**
+  * The description that explains what this numerical rating represents.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#definition BedrockagentcoreEvaluator#definition}
+  */
+  readonly definition?: string;
+  /**
+  * The label that describes this numerical rating option.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#label BedrockagentcoreEvaluator#label}
+  */
+  readonly label?: string;
+  /**
+  * The numerical value for this rating scale option.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#value BedrockagentcoreEvaluator#value}
   */
   readonly value?: number;
 }
@@ -2410,11 +3070,17 @@ export class BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleNumer
 }
 export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScale {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#categorical BedrockagentcoreEvaluator#categorical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#categorical BedrockagentcoreEvaluator#categorical}
   */
   readonly categorical?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleCategorical[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#numerical BedrockagentcoreEvaluator#numerical}
+  * The dimensions an LLM-as-a-Judge evaluator scores in a single judge call. Each dimension has its own instruction and rating scale.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#multi_dimensional BedrockagentcoreEvaluator#multi_dimensional}
+  */
+  readonly multiDimensional?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensional[] | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#numerical BedrockagentcoreEvaluator#numerical}
   */
   readonly numerical?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleNumerical[] | cdktn.IResolvable;
 }
@@ -2426,6 +3092,7 @@ export function bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleTo
   }
   return {
     categorical: cdktn.listMapper(bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleCategoricalToTerraform, false)(struct!.categorical),
+    multi_dimensional: cdktn.listMapper(bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalToTerraform, false)(struct!.multiDimensional),
     numerical: cdktn.listMapper(bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleNumericalToTerraform, false)(struct!.numerical),
   }
 }
@@ -2442,6 +3109,12 @@ export function bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleTo
       isBlock: true,
       type: "list",
       storageClassType: "BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleCategoricalList",
+    },
+    multi_dimensional: {
+      value: cdktn.listMapperHcl(bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalToHclTerraform, false)(struct!.multiDimensional),
+      isBlock: true,
+      type: "list",
+      storageClassType: "BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalList",
     },
     numerical: {
       value: cdktn.listMapperHcl(bedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleNumericalToHclTerraform, false)(struct!.numerical),
@@ -2477,6 +3150,10 @@ export class BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutpu
       hasAnyValues = true;
       internalValueResult.categorical = this._categorical?.internalValue;
     }
+    if (this._multiDimensional?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.multiDimensional = this._multiDimensional?.internalValue;
+    }
     if (this._numerical?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.numerical = this._numerical?.internalValue;
@@ -2489,6 +3166,7 @@ export class BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutpu
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._categorical.internalValue = undefined;
+      this._multiDimensional.internalValue = undefined;
       this._numerical.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
@@ -2499,6 +3177,7 @@ export class BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutpu
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._categorical.internalValue = value.categorical;
+      this._multiDimensional.internalValue = value.multiDimensional;
       this._numerical.internalValue = value.numerical;
     }
   }
@@ -2517,6 +3196,22 @@ export class BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutpu
   // Temporarily expose input value. Use with caution.
   public get categoricalInput() {
     return this._categorical.internalValue;
+  }
+
+  // multi_dimensional - computed: true, optional: true, required: false
+  private _multiDimensional = new BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalList(this, "multi_dimensional", false);
+  public get multiDimensional() {
+    return this._multiDimensional;
+  }
+  public putMultiDimensional(value: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensional[] | cdktn.IResolvable) {
+    this._multiDimensional.internalValue = value;
+  }
+  public resetMultiDimensional() {
+    this._multiDimensional.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get multiDimensionalInput() {
+    return this._multiDimensional.internalValue;
   }
 
   // numerical - computed: true, optional: true, required: false
@@ -2539,19 +3234,19 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudge {
   /**
   * The evaluation instructions that guide the language model in assessing agent performance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#instructions BedrockagentcoreEvaluator#instructions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#instructions BedrockagentcoreEvaluator#instructions}
   */
   readonly instructions?: string;
   /**
   * The model configuration that specifies which foundation model to use for evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#model_config BedrockagentcoreEvaluator#model_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#model_config BedrockagentcoreEvaluator#model_config}
   */
   readonly modelConfig?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfig;
   /**
   * The rating scale that defines how evaluators should score agent performance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#rating_scale BedrockagentcoreEvaluator#rating_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#rating_scale BedrockagentcoreEvaluator#rating_scale}
   */
   readonly ratingScale?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScale;
 }
@@ -2705,19 +3400,19 @@ export interface BedrockagentcoreEvaluatorEvaluatorConfig {
   /**
   * The configuration for code-based evaluation using a Lambda function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#code_based BedrockagentcoreEvaluator#code_based}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#code_based BedrockagentcoreEvaluator#code_based}
   */
   readonly codeBased?: BedrockagentcoreEvaluatorEvaluatorConfigCodeBased;
   /**
   * The configuration for an evaluator derived from an existing base evaluator (a built-in or third-party evaluator), run on your own model. The base evaluator supplies the prompt and scoring logic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#derived BedrockagentcoreEvaluator#derived}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#derived BedrockagentcoreEvaluator#derived}
   */
   readonly derived?: BedrockagentcoreEvaluatorEvaluatorConfigDerived;
   /**
   * The configuration for LLM-as-a-Judge evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#llm_as_a_judge BedrockagentcoreEvaluator#llm_as_a_judge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#llm_as_a_judge BedrockagentcoreEvaluator#llm_as_a_judge}
   */
   readonly llmAsAJudge?: BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudge;
 }
@@ -2869,11 +3564,11 @@ export class BedrockagentcoreEvaluatorEvaluatorConfigOutputReference extends cdk
 }
 export interface BedrockagentcoreEvaluatorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#key BedrockagentcoreEvaluator#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#key BedrockagentcoreEvaluator#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#value BedrockagentcoreEvaluator#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#value BedrockagentcoreEvaluator#value}
   */
   readonly value?: string;
 }
@@ -3018,7 +3713,7 @@ export class BedrockagentcoreEvaluatorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator}
 */
 export class BedrockagentcoreEvaluator extends cdktn.TerraformResource {
 
@@ -3034,7 +3729,7 @@ export class BedrockagentcoreEvaluator extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockagentcoreEvaluator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockagentcoreEvaluator to import
-  * @param importFromId The id of the existing BedrockagentcoreEvaluator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockagentcoreEvaluator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockagentcoreEvaluator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3046,7 +3741,7 @@ export class BedrockagentcoreEvaluator extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3057,7 +3752,7 @@ export class BedrockagentcoreEvaluator extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrockagentcore_evaluator',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

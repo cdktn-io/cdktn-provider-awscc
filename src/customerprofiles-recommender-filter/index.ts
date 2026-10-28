@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,47 +15,47 @@ export interface CustomerprofilesRecommenderFilterConfig extends cdktn.Terraform
   /**
   * The description of the recommender filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter#description CustomerprofilesRecommenderFilter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter#description CustomerprofilesRecommenderFilter#description}
   */
   readonly description?: string;
   /**
   * The unique name of the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter#domain_name CustomerprofilesRecommenderFilter#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter#domain_name CustomerprofilesRecommenderFilter#domain_name}
   */
   readonly domainName: string;
   /**
   * The filter expression that defines which items to include or exclude from recommendations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter#recommender_filter_expression CustomerprofilesRecommenderFilter#recommender_filter_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter#recommender_filter_expression CustomerprofilesRecommenderFilter#recommender_filter_expression}
   */
   readonly recommenderFilterExpression: string;
   /**
   * The name of the recommender filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter#recommender_filter_name CustomerprofilesRecommenderFilter#recommender_filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter#recommender_filter_name CustomerprofilesRecommenderFilter#recommender_filter_name}
   */
   readonly recommenderFilterName: string;
   /**
   * The name of the recommender schema to use for this recommender filter. If not specified, the default schema is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter#recommender_schema_name CustomerprofilesRecommenderFilter#recommender_schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter#recommender_schema_name CustomerprofilesRecommenderFilter#recommender_schema_name}
   */
   readonly recommenderSchemaName?: string;
   /**
   * The tags used to organize, track, or control access for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter#tags CustomerprofilesRecommenderFilter#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter#tags CustomerprofilesRecommenderFilter#tags}
   */
   readonly tags?: CustomerprofilesRecommenderFilterTags[] | cdktn.IResolvable;
 }
 export interface CustomerprofilesRecommenderFilterTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter#key CustomerprofilesRecommenderFilter#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter#key CustomerprofilesRecommenderFilter#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter#value CustomerprofilesRecommenderFilter#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter#value CustomerprofilesRecommenderFilter#value}
   */
   readonly value?: string;
 }
@@ -200,7 +200,7 @@ export class CustomerprofilesRecommenderFilterTagsList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter awscc_customerprofiles_recommender_filter}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter awscc_customerprofiles_recommender_filter}
 */
 export class CustomerprofilesRecommenderFilter extends cdktn.TerraformResource {
 
@@ -216,7 +216,7 @@ export class CustomerprofilesRecommenderFilter extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CustomerprofilesRecommenderFilter resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomerprofilesRecommenderFilter to import
-  * @param importFromId The id of the existing CustomerprofilesRecommenderFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomerprofilesRecommenderFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomerprofilesRecommenderFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -228,7 +228,7 @@ export class CustomerprofilesRecommenderFilter extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter awscc_customerprofiles_recommender_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter awscc_customerprofiles_recommender_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,7 +239,7 @@ export class CustomerprofilesRecommenderFilter extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_customerprofiles_recommender_filter',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

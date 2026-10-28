@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface QuicksightGroupConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description for the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group#description QuicksightGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group#description QuicksightGroup#description}
   */
   readonly description?: string;
   /**
   * A name for the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group#group_name QuicksightGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group#group_name QuicksightGroup#group_name}
   */
   readonly groupName: string;
   /**
   * The namespace that you want the group to be a part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group#namespace QuicksightGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group#namespace QuicksightGroup#namespace}
   */
   readonly namespace: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group awscc_quicksight_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group awscc_quicksight_group}
 */
 export class QuicksightGroup extends cdktn.TerraformResource {
 
@@ -49,7 +49,7 @@ export class QuicksightGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightGroup to import
-  * @param importFromId The id of the existing QuicksightGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -61,7 +61,7 @@ export class QuicksightGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group awscc_quicksight_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group awscc_quicksight_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +72,7 @@ export class QuicksightGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_quicksight_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface LicensemanagerReportGeneratorConfig extends cdktn.TerraformMeta
   /**
   * Description of the report generator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#description LicensemanagerReportGenerator#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#description LicensemanagerReportGenerator#description}
   */
   readonly description?: string;
   /**
   * Details of the license configurations and asset groups that this generator reports on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_context LicensemanagerReportGenerator#report_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#report_context LicensemanagerReportGenerator#report_context}
   */
   readonly reportContext: LicensemanagerReportGeneratorReportContext;
   /**
   * Details about how frequently reports are generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_frequency LicensemanagerReportGenerator#report_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#report_frequency LicensemanagerReportGenerator#report_frequency}
   */
   readonly reportFrequency: LicensemanagerReportGeneratorReportFrequency;
   /**
   * Name of the report generator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_generator_name LicensemanagerReportGenerator#report_generator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#report_generator_name LicensemanagerReportGenerator#report_generator_name}
   */
   readonly reportGeneratorName: string;
   /**
   * Type of reports to generate. The report type determines the data reported on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_type LicensemanagerReportGenerator#report_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#report_type LicensemanagerReportGenerator#report_type}
   */
   readonly reportType: string[];
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#tags LicensemanagerReportGenerator#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#tags LicensemanagerReportGenerator#tags}
   */
   readonly tags?: LicensemanagerReportGeneratorTags[] | cdktn.IResolvable;
 }
@@ -53,25 +53,25 @@ export interface LicensemanagerReportGeneratorReportContext {
   /**
   * Amazon Resource Names (ARNs) of the license asset groups to include in the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#license_asset_group_arns LicensemanagerReportGenerator#license_asset_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#license_asset_group_arns LicensemanagerReportGenerator#license_asset_group_arns}
   */
   readonly licenseAssetGroupArns?: string[];
   /**
   * Amazon Resource Names (ARNs) of the license configurations that this generator reports on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#license_configuration_arns LicensemanagerReportGenerator#license_configuration_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#license_configuration_arns LicensemanagerReportGenerator#license_configuration_arns}
   */
   readonly licenseConfigurationArns?: string[];
   /**
   * End date for the report data collection period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_end_date LicensemanagerReportGenerator#report_end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#report_end_date LicensemanagerReportGenerator#report_end_date}
   */
   readonly reportEndDate?: string;
   /**
   * Start date for the report data collection period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_start_date LicensemanagerReportGenerator#report_start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#report_start_date LicensemanagerReportGenerator#report_start_date}
   */
   readonly reportStartDate?: string;
 }
@@ -254,13 +254,13 @@ export interface LicensemanagerReportGeneratorReportFrequency {
   /**
   * Time period between each report. The period can be daily, weekly, or monthly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#period LicensemanagerReportGenerator#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#period LicensemanagerReportGenerator#period}
   */
   readonly period?: string;
   /**
   * Number of times within the frequency period that a report is generated. The only supported value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#value LicensemanagerReportGenerator#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#value LicensemanagerReportGenerator#value}
   */
   readonly value?: number;
 }
@@ -444,13 +444,13 @@ export interface LicensemanagerReportGeneratorTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#key LicensemanagerReportGenerator#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#key LicensemanagerReportGenerator#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#value LicensemanagerReportGenerator#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#value LicensemanagerReportGenerator#value}
   */
   readonly value?: string;
 }
@@ -595,7 +595,7 @@ export class LicensemanagerReportGeneratorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator awscc_licensemanager_report_generator}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator awscc_licensemanager_report_generator}
 */
 export class LicensemanagerReportGenerator extends cdktn.TerraformResource {
 
@@ -611,7 +611,7 @@ export class LicensemanagerReportGenerator extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LicensemanagerReportGenerator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicensemanagerReportGenerator to import
-  * @param importFromId The id of the existing LicensemanagerReportGenerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicensemanagerReportGenerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicensemanagerReportGenerator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -623,7 +623,7 @@ export class LicensemanagerReportGenerator extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator awscc_licensemanager_report_generator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator awscc_licensemanager_report_generator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -634,7 +634,7 @@ export class LicensemanagerReportGenerator extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_licensemanager_report_generator',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
